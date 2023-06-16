@@ -21,5 +21,5 @@ Profiler 에서 추적할 수 있는 내용을 요약하면 아래와 같다.
 
 ## 📌 Next step
 
-- [Memory dump](https://github.com/Knowre-Dev/AndroidDevCurriculum/blob/content/memory_dump/Android/Debugging/Profiler/MemoryDump/MemoryDump.md)
+- [Memory dump](https://github.com/dhkeum9886/AndroidDevCurriculum/blob/content/memory_dump/Android/Debugging/Profiler/MemoryDump/MemoryDump.md)
 

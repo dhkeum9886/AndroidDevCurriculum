@@ -25,7 +25,7 @@ CI는 **모든 개발이 끝난 이후 코드를 관리하는 고전적 방식�
 
 ### CD (Continuous Delivery/Deployment)
 
-CD는 지속적으로 배포로, 소프트웨어가 항상 신뢰 가능한 수준에서 배포될 수 있도록 지속적으로 관리하자는 개념이다. 쉽게 말해 CI의 연장선(하지만 필수 작업)으로, 통합과 테스트가 성공적으로 이루어졌을 때 빌드 결과물(앱)을 자동으로 배포하는 것이다. 모바일 앱 기준으로 배포하는 곳은 QA 테스트를 진행할 수 있는 [Fabric Beta(deprecate)](https://github.com/Knowre-Dev/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/Bitrise/Beta/Beta.md)나 [Firebase app distribution](https://github.com/Knowre-Dev/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/Bitrise/AppDistributions/AppDistributions.md) 이 있고, 빌드된 APK 파일을 업로드할 [AWS S3](https://github.com/Knowre-Dev/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/Bitrise/Aws/Aws.md) 가 있다.
+CD는 지속적으로 배포로, 소프트웨어가 항상 신뢰 가능한 수준에서 배포될 수 있도록 지속적으로 관리하자는 개념이다. 쉽게 말해 CI의 연장선(하지만 필수 작업)으로, 통합과 테스트가 성공적으로 이루어졌을 때 빌드 결과물(앱)을 자동으로 배포하는 것이다. 모바일 앱 기준으로 배포하는 곳은 QA 테스트를 진행할 수 있는 [Fabric Beta(deprecate)](https://github.com/dhkeum9886/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/Bitrise/Beta/Beta.md)나 [Firebase app distribution](https://github.com/dhkeum9886/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/Bitrise/AppDistributions/AppDistributions.md) 이 있고, 빌드된 APK 파일을 업로드할 [AWS S3](https://github.com/dhkeum9886/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/Bitrise/Aws/Aws.md) 가 있다.
 
 - 그래서 개발자는 코드만 푸시해서 CI 에서의 빌드를 성공시키면 되고, 빌드가 끝나면 배포된 앱을 다운로드하여 QA 를 진행하면 된다.
   - Fabric beta나 FB App distribution을 이용하면 QA 앱을 더 쉽게 다운로드받을 수 있다.
@@ -37,7 +37,7 @@ CD는 지속적으로 배포로, 소프트웨어가 항상 신뢰 가능한 수�
 
 ## 📌 Next Step
 
-CI/CD 환경을 구축할 수 있는 솔루션은 CircleCI, Travis, Jenkins 와 같이 여러개가 있다. 하지만 여기서는 더 쉽게 구축할 수 있는 솔루션(플랫폼?)인 [Bitrise](https://github.com/Knowre-Dev/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/Bitrise/Bitrise.md) 에 대해 알아볼 것이다.
+CI/CD 환경을 구축할 수 있는 솔루션은 CircleCI, Travis, Jenkins 와 같이 여러개가 있다. 하지만 여기서는 더 쉽게 구축할 수 있는 솔루션(플랫폼?)인 [Bitrise](https://github.com/dhkeum9886/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/Bitrise/Bitrise.md) 에 대해 알아볼 것이다.
 
 
 

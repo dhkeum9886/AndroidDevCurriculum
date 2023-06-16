@@ -17,7 +17,7 @@ Java(+Kotlin)는 JVM의 GC를 이용해 메모리를 관리하므로 C/C++처럼
 
 ## 📌 Memory leak
 
-앱에서 더 이상 사용되지 않는 메모리인데도, 아직 사용중인 메모리로 판단되어 GC의 정리 대상이 되지 못한 경우 메모리릭이 발생할 수 있다. GC의 정리 대상으로 선정하는 자세한 내용은 [여기](https://github.com/Knowre-Dev/AndroidDevCurriculum/blob/master/Prerequisites/Jvm/Memory/GarbageCollection/GarbageCollection.md)에서 알아보자.
+앱에서 더 이상 사용되지 않는 메모리인데도, 아직 사용중인 메모리로 판단되어 GC의 정리 대상이 되지 못한 경우 메모리릭이 발생할 수 있다. GC의 정리 대상으로 선정하는 자세한 내용은 [여기](https://github.com/dhkeum9886/AndroidDevCurriculum/blob/master/Prerequisites/Jvm/Memory/GarbageCollection/GarbageCollection.md)에서 알아보자.
 
 안드로이드 세계에서는 액티비티와 같은 `context` 가 누수될 경우 OOM 발생 가능성이 매우 높아진다. 왜냐하면, 액티비티는 가리키고 있는 참조(예를 들면 resources)가 많기 때문이다. 다행히 액티비티는 생명주기 콜백이 있어서 액티비티가 사라지기 전 `onDestroy()`에서 정리하면 되지만, 해당 context가 Strong reference로 연결되어있다면 액티비티가 종료되었음에도 불구하고 GC가 메모리를 회수할 수 없게된다.
 

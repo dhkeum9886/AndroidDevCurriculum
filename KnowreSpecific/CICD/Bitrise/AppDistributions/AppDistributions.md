@@ -1,6 +1,6 @@
 # App Distribution
 
-이번 장에서는 테스트 앱을 배포할 수 있는 툴에 대해 알아보려고한다. 앞서 설명한 [Bitrise](https://github.com/Knowre-Dev/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/Bitrise/Bitrise.md)의 워크플로우에 이 툴을 이용해 배포하는 작업을 추가하면, 코드 푸시 한번만으로 테스터들에게 배포할 수 있는  환경을 구축할 수 있다. (배포 자동화 완성!)
+이번 장에서는 테스트 앱을 배포할 수 있는 툴에 대해 알아보려고한다. 앞서 설명한 [Bitrise](https://github.com/dhkeum9886/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/Bitrise/Bitrise.md)의 워크플로우에 이 툴을 이용해 배포하는 작업을 추가하면, 코드 푸시 한번만으로 테스터들에게 배포할 수 있는  환경을 구축할 수 있다. (배포 자동화 완성!)
 
 기존에 Knowre에서 사용했던 툴은 Fabric crashlytics 에서 제공하는 [Beta](https://docs.fabric.io/apple/beta/overview.html)였으나, Fabric 은 2020년 3월 말 shutdown 되기때문에 Firebase 로 마이그레이션 할 예정이다. 따라서 Firebase 에서 제공하는 App distribution 에 대해 알아보자.
 

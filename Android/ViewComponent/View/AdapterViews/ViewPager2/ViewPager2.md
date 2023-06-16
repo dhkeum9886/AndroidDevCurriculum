@@ -16,7 +16,7 @@ dependencies {
     implementation "androidx.viewpager2:viewpager2:${version}"
 }
 ```
-사용법은 [RecyclerView의 사용법](https://github.com/Knowre-Dev/AndroidDevCurriculum/blob/content/recyclerView/Android/ViewComponent/View/AdapterViews/RecyclerView/RecyclerView.md)과 같다.
+사용법은 [RecyclerView의 사용법](https://github.com/dhkeum9886/AndroidDevCurriculum/blob/content/recyclerView/Android/ViewComponent/View/AdapterViews/RecyclerView/RecyclerView.md)과 같다.
 
 ### OnPageChangeCallback
 

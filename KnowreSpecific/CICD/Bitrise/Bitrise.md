@@ -4,7 +4,7 @@
 
 ## 📌 개요
 
-[앞장](https://github.com/Knowre-Dev/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/CICD.md)에서 설명한것처럼 Bitrise는 CI/CD 환경을 쉽게 구축할 수 있도록 해주는 플랫폼(PaaS - Platform as a Service)이다. 모바일 앱 개발(iOS, Android, React Native, Flutter 등) 프로젝트에 특화되어있다(고 docs 에 설명되어있다).
+[앞장](https://github.com/dhkeum9886/AndroidDevCurriculum/blob/master/KnowreSpecific/CICD/CICD.md)에서 설명한것처럼 Bitrise는 CI/CD 환경을 쉽게 구축할 수 있도록 해주는 플랫폼(PaaS - Platform as a Service)이다. 모바일 앱 개발(iOS, Android, React Native, Flutter 등) 프로젝트에 특화되어있다(고 docs 에 설명되어있다).
 
 Bitrise를 이용해 CI/CD 환경을 구축하는 방법을 요약하면 아래와같다.
 
